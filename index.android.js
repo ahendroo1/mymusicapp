@@ -18,7 +18,7 @@ import codePush from "react-native-code-push";
 export default class HomeScreen extends Component {
 
     static navigationOptions = {
-        title: 'mjuzik'
+        title: 'Amad Hendro'
     };
 
     render() {
@@ -36,4 +36,4 @@ const mjuzik = StackNavigator({
     Tracks: {screen: Tracks }
 });
 
-AppRegistry.registerComponent('mjuzik', () => codePush(mjuzik));
+AppRegistry.registerComponent('ahendroo', () => codePush(ahendroo));
